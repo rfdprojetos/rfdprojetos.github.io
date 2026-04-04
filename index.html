@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFDPROJETOS | Em Breve</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-main: #111827;
+            --text-muted: #6b7280;
+            --accent-blue: #007bff;
+            --border-light: #f3f4f6;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Hero centralizado com Duo-Tone */
+        .hero {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .brand-name {
+            font-size: 3.5rem;
+            letter-spacing: -0.04em;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .brand-name b { font-weight: 800; color: var(--text-main); }
+        .brand-name span { font-weight: 400; color: var(--text-muted); }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-weight: 400;
+        }
+
+        /* Rodapé com fundo sutil e borda fina */
+        .footer {
+            background-color: #f9fafb;
+            border-top: 1px solid var(--border-light);
+            padding: 40px 20px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        .footer strong { color: var(--text-main); font-weight: 600; }
+        .footer a { color: var(--accent-blue); text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+
+        @media (max-width: 640px) {
+            .brand-name { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1 class="brand-name"><b>RFD</b><span>PROJETOS</span></h1>
+        <p>Treinamentos e Arquitetura. <br>Nosso novo portal está em desenvolvimento.</p>
+    </div>
+
+    <div class="footer">
+        <p>
+            <strong>RFD TREINAMENTOS E ARQUITETURA LTDA</strong><br>
+            CNPJ: <strong>23.312.384/0001-83</strong><br>
+            Porto Alegre, RS — Brasil<br>
+            Contato: <a href="mailto:contato@rfdprojetos.com.br">contato@rfdprojetos.com.br</a>
+        </p>
+    </div>
+
+</body>
+</html>
